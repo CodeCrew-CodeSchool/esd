@@ -57,7 +57,8 @@ In this activity, you will find four flags (and an optional bonus flag) hidden s
 
 
 
-Open the site in a new tab: [Capture the Flag Site](https://CodeCrew-CodeSchool.github.io/esd/site/)
+Open the site in a new tab: <a target="_blank" href="https://CodeCrew-CodeSchool.github.io/esd/site">Capture the Flag Site</a>
+
 
 
 
@@ -107,12 +108,13 @@ In this activity, you will explore the console using the developer tools to find
 
 <iframe loading="lazy" onload="self.scrollTo(0,0)" width="560" height="315" class="slides" src="https://docs.google.com/presentation/d/1GVOoisApJDNckEKJ2xMGhfmOc2UIm7whwUasDgd_KH4/embed?start=false&amp;loop=false&amp;delayms=15000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-Open this site in a new tab: [Console Secrets](https://CodeCrew-CodeSchool.github.io/esd/site/console/index.html)
+Open this site in a new tab: <a target="_blank" href="https://CodeCrew-CodeSchool.github.io/esd/site/console/index.html">Console Secrets</a>
+
 Using your developer tools, go to the console and follow the directions.
 Write down the flag words that you find along the way!
 
 
-If your developer tools are disabled, click on this link to complete a similar activity: [Simulated Console](https://CodeCrew-CodeSchool.github.io/esd/site/altconsole/index.html)
+If your developer tools are disabled, click on this link to complete a similar activity: <a target="_blank" href="https://CodeCrew-CodeSchool.github.io/esd/site/altconsole/index.html">Simulated Console Secrets</a>
 
 
 
@@ -131,12 +133,13 @@ In this activity, you will explore local storage using the developer tools to fi
 
 
 
-Open this site in a new tab: [Local Storage](https://CodeCrew-CodeSchool.github.io/esd/site/localstorage/index.html)
+Open this site in a new tab: <a target="_blank" href="https://CodeCrew-CodeSchool.github.io/esd/site/localstorage/index.html">Local Storage</a>
+
 Using your developer tools, go to the console and follow the directions.
 Write down the flag word that you find along the way!
 
 
-If your developer tools are disabled, click on this link to complete a similar activity: [Simulated Local Storage](https://CodeCrew-CodeSchool.github.io/esd/site/altlocalstorage/index.html)
+If your developer tools are disabled, click on this link to complete a similar activity: <a target="_blank" href="https://CodeCrew-CodeSchool.github.io/esd/site/altlocalstorage/index.html">Simulated Local Storage</a>
 
 
 
