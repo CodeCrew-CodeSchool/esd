@@ -19,4 +19,14 @@ function meow() {
     document.querySelector('button[onclick="meow()"]').innerHTML = muteButtonText;
 }
 
+function copyViewSource(event) {
+    event.preventDefault(); // Prevent default link behavior
+    const href = event.target.getAttribute('href');
+    event.target.title = "Link Copied"
+    navigator.clipboard.writeText(href)
+        .then(() => console.log('Link copied to clipboard'))
+        .catch(err => console.error('Failed to copy: ', err));
+}
+
+
 /* Javascript code adds functionality. This is how the buttons work!  The third flag is: shield */
