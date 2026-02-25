@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title>Simulated Console</title>
+        <!-- <title>Console Secrets</title> -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id="left">
+
+
+
+        Boring website, right?
+        <br>
+        <br>
+        ... or is it?
+        <br>
+        <br>
+        Go to your developer tools and see what secrets lie in the console!
+        <br>
+        <br>
+        There are two hidden flags. Write down the words included with these flags. You will submit them later in the
+        lesson.
+
+        <audio id="myAudio">
+            <source src="https://codehs.com/uploads/137129a1b7f8634d3ab13f3801c77e0e" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+
+    </div>
+    <div id="right">
+        <h3>Console</h3>
+        <p id="warning">password_db: WARNING: no privileges could be revoked for 'public'</p>
+        <p>You found the console! Congratulations!</p>
+        <p>Warning messages and errors will be found. </p>
+        <p>Here is your first flag: lovelace</p>
+        <p>Now, let's play around! Go to the prompt below, next to the &gt; arrow, and type in 'ghost()'. Don't forget
+            to include the parenthesis!</p>
+        <p>&gt;<input id="first"><button onclick="firstButton()">GO</button></p>
+        <p id="firstText"></p>
+
+
+        <p>Ok, now try 'getFunky()'</p>
+        <p>&gt;<input id="second"><button onclick="secondButton()">GO</button></p>
+        <p id="secondText"></p>
+
+        <p>Lastly, I've hidden another flag in an object called info. Type in 'window.info' to find it!</p>
+        <p>&gt;<input id="third"><button onclick="thirdButton()">GO</button></p>
+        <p id="thirdText"></p>
+    </div>
+
+
+    <script>
+
+        function firstButton() {
+            let firstInput = document.getElementById("first").value
+            let firstText = document.getElementById("firstText")
+            if (firstInput == "ghost()") {
+                firstText.innerHTML = "BOO!"
+            }
+        }
+
+        function secondButton() {
+            let secondInput = document.getElementById("second").value
+            let secondText = document.getElementById("secondText")
+            if (secondInput == "getFunky()") {
+                secondText.innerHTML = "♪ ♫ ♪";
+                let x = document.getElementById("myAudio");
+                x.play();
+            }
+        }
+
+        function thirdButton() {
+            let thirdInput = document.getElementById("third").value
+            let thirdText = document.getElementById("thirdText")
+            if (thirdInput == "window.info") {
+                thirdText.innerHTML = "  flag: 'prince',<br>was_this_fun: 'yes',<br>codeHS: 'rocks!',<br>password: 'enter1234"
+            }
+        }
+
+        window.info = {
+            flag: 'prince',
+            was_this_fun: 'yes',
+            codeCrew: 'rocksF!'
+        }
+    </script>
+</body>
+
+</html>

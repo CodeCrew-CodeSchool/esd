@@ -1,0 +1,45 @@
+header {
+    background-color: #6689A1;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    width: 75%;
+    margin:auto;
+}
+
+h1 {
+    color: white;
+}
+
+.content{
+    padding:50px;
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    cursor: hand;
+    padding: 16px;
+    margin: 10px;
+    font-size: 20px;
+    align-items: center;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+#tabcontent {
+    color: #111;
+    display: none;
+    padding: 10px;
+    margin: 25px;
+    text-align: center;
+}
+
+/* CSS code styles the page! Here's the second flag: mind */

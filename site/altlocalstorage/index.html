@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>Simulated Local Storage</title>
+
+<body>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <div id=left>
+            <div class="visits">You have visited this site <span id="visits"></span>
+                times!
+            </div>
+            <div class="instructions">
+                1. Click the refresh button on your browser a few times. Notice how it keeps track of how many times you
+                have visited the page.
+                <br>
+                <br>
+                2. In the local storage, find where the number of visits is stored. Change this number by typing in a
+                new one and clicking on GO. The value must remain a number (no letters or symbols).
+                <br>
+                <br>
+                3. Refresh the page again. Did the number change correctly?
+                <br>
+                <br>
+                4. Find the flag in local storage!
+                <br>
+                <br>
+                5. Change the local storage for the remaining items and refresh your page. Check out the changes on the
+                left!
+            </div>
+            <div class="student">
+                My name is <span id="student"></span>.
+                <br>
+                My favorite animal is a <span id="animal"></span>.
+                <br>
+                My hobbies are <span id="hobbies"></span>.
+                <br>
+                This activity is <span id="activity"></span>!
+            </div>
+        </div>
+        <div id=right>
+            <h3>Local Storage</h3>
+            <table>
+                <tr>
+                    <th>Key</th>
+                    <th>Value</th>
+                    <th>Change Value</th>
+                </tr>
+                <tr>
+                    <td>*****CodeCrew-visits*****</td>
+                    <td id="visitsTable"></td>
+                    <td><input id="visitsInput"><button onclick="visits()">GO</button></td>
+                </tr>
+                <tr>
+                    <td>*****CodeCrew-student*****</td>
+                    <td id="studentTable"></td>
+                    <td><input id="studentInput"><button onclick="students()">GO</button></td>
+                </tr>
+                <tr>
+                    <td>*****CodeCrew-activity*****</td>
+                    <td id="activityTable"></td>
+                    <td><input id="activityInput"><button onclick="activities()">GO</button></td>
+                </tr>
+                <tr>
+                    <td>*****CodeCrew-animal*****</td>
+                    <td id="animalTable"></td>
+                    <td><input id="animalInput"><button onclick="animals()">GO</button></td>
+                </tr>
+                <tr>
+                    <td>*****CodeCrew-hobbies*****</td>
+                    <td id="hobbiesTable"></td>
+                    <td><input id="hobbiesInput"><button onclick="hobby()">GO</button></td>
+                </tr>
+                <tr>
+                    <td>*****CodeCrew-account_balance*****</td>
+                    <td id="balanceTable"></td>
+                    <td><input id="balanceInput"><button onclick="balances()">GO</button></td>
+                </tr>
+                <tr>
+                    <td>*****CodeCrew-flag*****</td>
+                    <td id="flagTable"></td>
+                    <td></td>
+                </tr>
+            </table>
+            <div>
+
+    </body>
+
+    <script type="text/javascript" src="script.js"></script>
+
+</html>
