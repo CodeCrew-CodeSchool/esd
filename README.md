@@ -48,7 +48,7 @@ It's a handy tool for understanding how different elements on a page are structu
 
 ### Your Task
 
-Right-click on this page and choose View Page Source (If your right-click is disabled, copy and paste this into your web browser: [view-source:https://CodeCrew-CodeSchool.github.io/esd/site/index.html](view-source:https://CodeCrew-CodeSchool.github.io/esd/site/index.html))
+Right-click on this page and choose View Page Source (If your right-click is disabled, copy and paste this into your web browser: view-source:https://CodeCrew-CodeSchool.github.io/esd/site/index.html
 What do you see? Anything interesting?
 
 ## Find the Flags!
@@ -57,11 +57,11 @@ In this activity, you will find four flags (and an optional bonus flag) hidden s
 
 
 
-Open the site in a new tab: [Capture the Flag Site](https://CodeCrew-CodeSchool.github.io/esd/site/index.html)
+Open the site in a new tab: [Capture the Flag Site](https://CodeCrew-CodeSchool.github.io/esd/site/)
 
 
 
-1. The first flag is hidden in the site's source code. Use the View Page Source feature to find it. If your right-click is disabled, copy and paste this into your web browser: [view-source:https://CodeCrew-CodeSchool.github.io/esd/site/index.html](view-source:https://CodeCrew-CodeSchool.github.io/esd/site/index.html)
+1. The first flag is hidden in the site's source code. Use the View Page Source feature to find it. If your right-click is disabled, copy and paste this into your web browser: view-source:https://CodeCrew-CodeSchool.github.io/esd/site/index.html
 
 
 
@@ -88,10 +88,15 @@ https://code-crew.org/___________.txt
 5. Advanced Bonus Flag (Optional): Right-click on the image of the cat and save the file to your desktop. Open the file with a text editor (either Notepad on a Windows computer or TextEdit on a Mac). Find the bonus flag!
 
 The 5 flags are:
+
 1.__________
+
 2.__________
+
 3.__________
+
 4.__________
+
 5.__________
 
 ## Take Home
