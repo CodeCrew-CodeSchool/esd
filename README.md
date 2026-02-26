@@ -37,7 +37,7 @@ The "view page source" option on a browser allows you to view the HTML, CSS, and
 ![view page source](images/source.png)
 
 <style>
-    img[src="source.png"] {
+    img[alt="view page source"] {
         width: 700px;
     }
 </style>
@@ -48,43 +48,31 @@ It's a handy tool for understanding how different elements on a page are structu
 
 ### Your Task
 
-Right-click on this page and choose View Page Source (If your right-click is disabled, copy and paste this into your web browser: view-source:https://CodeCrew-CodeSchool.github.io/esd/site/index.html
+Right-click on this page and choose View Page Source 
+
+( If your right-click is disabled, copy and paste this into your web browser: view-source:https://CodeCrew-CodeSchool.github.io/esd/site/index.html )
+
 What do you see? Anything interesting?
 
 ## Find the Flags!
 
 In this activity, you will find four flags (and an optional bonus flag) hidden somewhere within the website. Each flag will include a word. Keep track of the words.
 
-
-
 Open the site in a new tab: <a target="_blank" href="https://CodeCrew-CodeSchool.github.io/esd/site">Capture the Flag Site</a>
-
-
-
 
 1. The first flag is hidden in the site's source code. Use the View Page Source feature to find it. If your right-click is disabled, copy and paste this into your web browser: view-source:https://CodeCrew-CodeSchool.github.io/esd/site/index.html
 
-
-
 2. In the source code, there is a **style.css** file. Search this file for the second flag. Take note of the web address of this file. How is it different than the original website?
-
-
 
 3. In the source code, there is also a **script.js** file. Search this file for the third flag. Look at the web address here as well. What is the only part of the address that is different in each file?
 
-
-
 4. Lastly, there is another file that is NOT listed on the website or in the source code. You can only access this file by typing it in the web address bar. To find this file, unscramble the following word and place it in the web address in the format shown:
 
-
-
 Unscramble this word: eteceditv
+
 Use the following format to navigate to the hidden file. Replace the blank before .txt with the unscrambled word and go to that site:
 
-
 https://code-crew.org/___________.txt
-
-
 
 5. Advanced Bonus Flag (Optional): Right-click on the image of the cat and save the file to your desktop. Open the file with a text editor (either Notepad on a Windows computer or TextEdit on a Mac). Find the bonus flag!
 
@@ -131,17 +119,13 @@ If your developer tools are disabled, click on this link to complete a similar a
 
 In this activity, you will explore local storage using the developer tools to find one more flag!
 
-
-
 Open this site in a new tab: <a target="_blank" href="https://CodeCrew-CodeSchool.github.io/esd/site/localstorage/index.html">Local Storage</a>
 
 Using your developer tools, go to the console and follow the directions.
+
 Write down the flag word that you find along the way!
 
-
 If your developer tools are disabled, click on this link to complete a similar activity: <a target="_blank" href="https://CodeCrew-CodeSchool.github.io/esd/site/altlocalstorage/index.html">Simulated Local Storage</a>
-
-
 
 #### Reflection:
 
@@ -151,11 +135,26 @@ If your developer tools are disabled, click on this link to complete a similar a
 
 <!-- Credit to CodeHS for the lesson plan. -->
 
-
 # Submission
+
+Using our the codebase from our [public git repository](https://github.com/CodeCrew-CodeSchool/esd), create your own repo that you will submit for credit in completing the workshop and the challenge.
+
+Instructions for [(1)](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) creating your account, [(2)](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) setting up 2-Factor Authentication (2FA), [(3)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) forking, and [4](https://code.visualstudio.com/docs/sourcecontrol/quickstart#_step-1-open-a-project) cloning, and [5](https://code.visualstudio.com/docs/sourcecontrol/quickstart#_step-3-stage-and-commit) staging, commiting, and [6](https://code.visualstudio.com/docs/sourcecontrol/quickstart#_step-4-sync-with-the-server) updating the repo can be found here:
+
+[1. Create an Account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
+
+[2. Set up 2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
+
+[3. Fork the Repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+
+[4. Clone the Repo](https://code.visualstudio.com/docs/sourcecontrol/quickstart#_step-1-open-a-project)
+
+[5. Review and Save Your Changes](https://code.visualstudio.com/docs/sourcecontrol/quickstart#_step-3-stage-and-commit)
+
+[6. Push/Update Your Changes](https://code.visualstudio.com/docs/sourcecontrol/quickstart#_step-4-sync-with-the-server)
 
 Edit this file, providing the 5 flags you've found, and the answers for each of the reflection questions.
 
 Use Visual Studio Code to send your updates back to your Github repo. 
 
-Email the link to your updated Github Repo to: 
+Email the link to your updated Github Repo to: [codeschool@code-crew.org](mailto:codeschool@code-crew.org)

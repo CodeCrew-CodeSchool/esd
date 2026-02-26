@@ -28,5 +28,18 @@ function copyViewSource(event) {
         .catch(err => console.error('Failed to copy: ', err));
 }
 
+function toggleDarkMode(event) {
+    event.preventDefault();
+    if (event.target.getAttribute("toggled") == 1) {
+        event.target.setAttribute("toggled", 0);
+        document.body.style.backgroundColor = "";
+        document.body.style.color = "";
+
+    } else {
+        event.target.setAttribute("toggled", 1);
+        document.body.style.backgroundColor = "rgb(119, 119, 119)";
+        document.body.style.color = "rgb(255, 255, 255)";
+    }
+}
 
 /* Javascript code adds functionality. This is how the buttons work!  The third flag is: shield */

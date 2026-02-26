@@ -6,9 +6,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" type="image/png" href="favicon.ico">
 </head>
-
-<!-- HTML code lists the content of the page! Here's the first flag: bicycle -->
-
 <body>
     <div class="container">
         <header>
@@ -17,14 +14,17 @@
             <br>
             <br>
             <button class="tablink" id="showmore" onclick="openTab()">Show More</button>
-            <button class="tablink" onclick="meow()">Mute Audio</button>
+            <button class="tablink" onclick="meow(event)">Mute Audio</button>
+            <button class="tablink" onclick="toggleDarkMode(event)">Don't Freeze</button>
         </header>
         <div id="tabcontent">
             <h3>Meet the Next Black Panther</h3>
             <p>
-                From defending the people of your kingdom day and night, this role will require the best of you technically, professionally, mentally, and more.
+                From defending the people of your kingdom day and night, this role will require the best of you
+                technically, professionally, mentally, and more.
             <p>
-                With the knowledge and skills you gain, this can be more than just a new career; you can change the world.
+                With the knowledge and skills you gain, this can be more than just a new career; you can change the
+                world.
             </p>
             <p>
                 Are you ready for the challenge?
@@ -44,9 +44,11 @@
             <p>
                 1. The first flag is hidden in the site's source code. Use the View Page Source feature to find it. If
                 your right-click is disabled, copy and paste this into your web browser:
-                <p id="viewsource" style="text-decoration: underline; color:blue; cursor: pointer;" href="view-source:https://CodeCrew-CodeSchool.github.io/esd/site" onclick="copyViewSource(event)" title="Click to Copy">
-                    view-source:https://CodeCrew-CodeSchool.github.io/esd/site
-                </p>
+            <p id="viewsource" style="text-decoration: underline; color:blue; cursor: pointer;"
+                href="view-source:https://CodeCrew-CodeSchool.github.io/esd/site" onclick="copyViewSource(event)"
+                title="Click to Copy">
+                view-source:https://CodeCrew-CodeSchool.github.io/esd/site
+            </p>
             </p>
             <p>
                 2. In the source code, there is a <strong>style.css</strong> file. Search this file for the second flag.
@@ -74,6 +76,84 @@
                 Open the file with a text editor (either <strong>Notepad</strong> on a Windows computer or
                 <strong>TextEdit</strong> on a Mac). Find the bonus flag!
             </p>
+            <div id="submission">
+                <h3>
+                    Submission
+                </h3>
+
+                <p>
+                    Using our the codebase from our <a href="https://github.com/CodeCrew-CodeSchool/esd" target="_blank">public git repository</a>,
+                    create your own repo that you will submit for credit in completing the workshop and the challenge.
+                </p>
+                <p>
+                    Instructions for 
+                        <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github"
+                        target="_blank">(1)</a> creating your account, 
+                        <a href="https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication"
+                        target="_blank">(2)</a> setting up 2-Factor Authentication (2FA), 
+                        <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo"
+                        target="_blank">(3)</a> forking, and 
+                        <a href="https://code.visualstudio.com/docs/sourcecontrol/quickstart#_step-1-open-a-project"
+                        target="_blank">(4)</a> cloning, and 
+                        <a href="https://code.visualstudio.com/docs/sourcecontrol/quickstart#_step-3-stage-and-commit"
+                        target="_blank">(5)</a> staging, commiting, and 
+                        <a href="https://code.visualstudio.com/docs/sourcecontrol/quickstart#_step-4-sync-with-the-server"
+                        target="_blank">(6)</a> updating the repo can be found here:
+                </p>
+
+                <ol type="1">
+                    <li>
+                        <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github"
+                            target="_blank">
+                            Create an Account
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication"
+                            target="_blank">
+                            Set up 2FA
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo"
+                            target="_blank">
+                            Fork the Repo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://code.visualstudio.com/docs/sourcecontrol/quickstart#_step-1-open-a-project"
+                            target="_blank">
+                            Clone the Repo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://code.visualstudio.com/docs/sourcecontrol/quickstart#_step-3-stage-and-commit"
+                            target="_blank">
+                            Review and Save Your Changes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://code.visualstudio.com/docs/sourcecontrol/quickstart#_step-4-sync-with-the-server"
+                            target="_blank">
+                            Push/Update Your Changes
+                        </a>
+                    </li>
+                </ol>
+
+                <p>
+                    After completing steps 1-4, create a file:  as you hunt for each flag. Make sure that you include the 5 flags you've found, and the answers for each of the reflection inside of the README.md file.
+                    questions.
+                </p>
+                <p>
+                    Use Visual Studio Code to send your updates back to your Github repo.
+                </p>
+                <p>
+                    Email the link to your updated Github Repo to:
+                    <a href="mailto:codeschool@code-crew.org" target="_blank"">
+                        codeschool@code-crew.org
+                    </a>
+                </p>
+            </div>
         </div>
         <audio id="meow" autoplay loop>
             <source src="BlackPantherDrumBeats.mp3" type="audio/mpeg">
@@ -84,3 +164,4 @@
 </body>
 
 </html>
+<!-- HTML code lists the content of the page! Here's the first flag: bicycle -->

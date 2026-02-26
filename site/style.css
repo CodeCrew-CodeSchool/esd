@@ -9,6 +9,8 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
     width: 75%;
     margin:auto;
+    /* background-color: rgb(119, 119, 119);
+    color: rgb(255, 255, 255); */
 }
 
 h1 {
@@ -35,7 +37,7 @@ h1 {
 }
 
 #tabcontent {
-    color: #111;
+    /* color: #111; */
     display: none;
     padding: 10px;
     margin: 25px;
