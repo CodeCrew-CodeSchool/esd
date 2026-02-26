@@ -13,10 +13,13 @@ function openTab() {
 
 function meow() {
     let sound = document.getElementById("meow");
-    sound.muted = !sound.muted;
-
+    if (document.querySelector('#audiobutton').innerHTML == "Mood") {
+        sound.play();
+    } else {
+        sound.muted = !sound.muted;
+    }
     let muteButtonText = sound.muted == true ? "Unmute Audio" : "Mute Audio";
-    document.querySelector('button[onclick="meow()"]').innerHTML = muteButtonText;
+    document.querySelector('#audiobutton').innerHTML = muteButtonText;
 }
 
 function copyViewSource(event) {

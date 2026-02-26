@@ -14,7 +14,7 @@
             <br>
             <br>
             <button class="tablink" id="showmore" onclick="openTab()">Show More</button>
-            <button class="tablink" onclick="meow(event)">Mute Audio</button>
+            <button id="audiobutton" class="tablink" onclick="meow(event)">Mood</button>
             <button class="tablink" onclick="toggleDarkMode(event)">Don't Freeze</button>
         </header>
         <div id="tabcontent">
@@ -155,7 +155,7 @@
                 </p>
             </div>
         </div>
-        <audio id="meow" autoplay loop>
+        <audio id="meow" loop>
             <source src="BlackPantherDrumBeats.mp3" type="audio/mpeg">
         </audio>
     </div>
