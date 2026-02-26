@@ -1,3 +1,5 @@
+// Welcome to JavaScript
+
 function openTab() {
     let tabcontent;
     tabcontent = document.getElementById("tabcontent");
@@ -37,11 +39,17 @@ function toggleDarkMode(event) {
         event.target.setAttribute("toggled", 0);
         document.body.style.backgroundColor = "";
         document.body.style.color = "";
+        document.querySelectorAll("a, #viewsource").forEach((lmnt)=>{
+            lmnt.style.color = "blue"
+        });
 
     } else {
         event.target.setAttribute("toggled", 1);
-        document.body.style.backgroundColor = "rgb(119, 119, 119)";
+        document.body.style.backgroundColor = "rgb(42, 42, 42)";
         document.body.style.color = "rgb(255, 255, 255)";
+        document.querySelectorAll("a, #viewsource").forEach((lmnt)=>{
+            lmnt.style.color = "a4daff";
+        });
     }
 }
 

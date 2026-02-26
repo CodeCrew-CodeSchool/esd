@@ -1,3 +1,5 @@
+/* Welcome to CSS */
+
 header {
     background-color: #6689A1;
     padding: 1em;
@@ -7,10 +9,9 @@ header {
 
 body {
     font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
     width: 75%;
     margin:auto;
-    /* background-color: rgb(119, 119, 119);
-    color: rgb(255, 255, 255); */
 }
 
 h1 {
@@ -44,4 +45,15 @@ h1 {
     text-align: center;
 }
 
+a, #viewsource {
+    color: #a4daff;
+}
+
+#viewsource {
+    text-decoration: underline; 
+}
+
+#viewsource:hover {
+    cursor: pointer;
+}
 /* CSS code styles the page! Here's the second flag: mind */

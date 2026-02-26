@@ -9,12 +9,6 @@ What is Capture the Flag?
 
 ![two students holding flags on top of separate mountains](images/ctf.jpg)
 
-<style>
-    img {
-        width: 400px;
-    }
-</style>
-
 In cybersecurity, a Capture The Flag (CTF) competition is where participants solve various security challenges to capture hidden "flags" or pieces of information. CTFs are fun, practical learning experiences that simulate real-world cybersecurity scenarios. Within this lesson, you will have the opportunity to find "flags" by locating specific information using the View Page Source feature as well as other features that you will learn about. A flag is a secret word hidden somewhere on the site. Here is an example:
 
 ![flag example](images/example.jpg)
@@ -35,12 +29,6 @@ screenshot showing the View Page Source option in the right-click menu
 The "view page source" option on a browser allows you to view the HTML, CSS, and JavaScript code that is being used to display the content you see. This option lets you peek behind the scenes and see the actual code that makes up the webpage!
 
 ![view page source](images/source.png)
-
-<style>
-    img[alt="view page source"] {
-        width: 700px;
-    }
-</style>
 
 It's a handy tool for understanding how different elements on a page are structured and styled, but could this be a potential risk? What important information might be stored in the code of a webpage?
 
@@ -153,8 +141,21 @@ Instructions for [(1)](https://docs.github.com/en/get-started/start-your-journey
 
 [6. Push/Update Your Changes](https://code.visualstudio.com/docs/sourcecontrol/quickstart#_step-4-sync-with-the-server)
 
-Edit this file, providing the 5 flags you've found, and the answers for each of the reflection questions.
+After completing steps 1-4, create a file called <code>Submission.md</code> to keep track of your findings as you hunt for each flag. 
 
-Use Visual Studio Code to send your updates back to your Github repo. 
+![correct folder structure for submission](images/submission.png)
+
+Make sure that your <code>Submission.md</code> file includes the 5 flags you've found, and the answers for each of the reflections from the README.md file.
+
+Use Visual Studio Code to send your updates back to your Github repo. (Follow steps 5 and 6) 
 
 Email the link to your updated Github Repo to: [codeschool@code-crew.org](mailto:codeschool@code-crew.org)
+
+<style>
+    img {
+        width: 400px;
+    }
+    img[alt="view page source"] {
+        width: 700px;
+    }
+</style>
